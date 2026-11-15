@@ -1,0 +1,16 @@
+AUTOMATED DATA VALIDATION REPORT
+========================================
+Input rows: 8
+Input columns: Order ID, Customer Name, Amount, Order Date, Currency, Email
+Column names: trimmed, lowercased, spaces/symbols replaced with underscores.
+Unparseable dates converted to null: 1
+Filled 1 null value(s) in 'customer_name' with 'Unknown'.
+Filled 1 null value(s) in 'email' with 'Not provided'.
+Rows rejected for missing/invalid required fields: 3
+Required-field null counts before rejection: order_id=1, amount=1, order_date=1
+Duplicate order_id records removed: 1
+Output rows: 4
+Rows removed/rejected: 4
+Final validation: PASSED
+All required fields, uniqueness, and data types passed.
+Rejected rows are not included in cleaned output; review source data to repair them.

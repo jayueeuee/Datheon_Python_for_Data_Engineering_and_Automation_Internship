@@ -1,0 +1,121 @@
+title,price,currency,price_text,availability,rating,product_url,image_url,source_page,source
+Mystery Handbook Volume 001,7.36,GBP,£7.36,In stock,One,https://example.test/products/sample-001,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 002,8.73,GBP,£8.73,In stock,Two,https://example.test/products/sample-002,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 003,10.1,GBP,£10.10,In stock,Three,https://example.test/products/sample-003,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 004,11.47,GBP,£11.47,In stock,Four,https://example.test/products/sample-004,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 005,12.84,GBP,£12.84,In stock,Five,https://example.test/products/sample-005,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 006,14.21,GBP,£14.21,In stock,One,https://example.test/products/sample-006,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 007,15.58,GBP,£15.58,Out of stock,Two,https://example.test/products/sample-007,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 008,16.95,GBP,£16.95,In stock,Three,https://example.test/products/sample-008,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 009,18.32,GBP,£18.32,In stock,Four,https://example.test/products/sample-009,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 010,19.69,GBP,£19.69,In stock,Five,https://example.test/products/sample-010,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 011,21.06,GBP,£21.06,In stock,One,https://example.test/products/sample-011,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 012,22.43,GBP,£22.43,In stock,Two,https://example.test/products/sample-012,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 013,23.8,GBP,£23.80,In stock,Three,https://example.test/products/sample-013,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 014,25.17,GBP,£25.17,Out of stock,Four,https://example.test/products/sample-014,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 015,26.54,GBP,£26.54,In stock,Five,https://example.test/products/sample-015,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 016,27.91,GBP,£27.91,In stock,One,https://example.test/products/sample-016,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 017,29.28,GBP,£29.28,In stock,Two,https://example.test/products/sample-017,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 018,30.65,GBP,£30.65,In stock,Three,https://example.test/products/sample-018,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 019,32.02,GBP,£32.02,In stock,Four,https://example.test/products/sample-019,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 020,33.39,GBP,£33.39,In stock,Five,https://example.test/products/sample-020,,sample_fixture_page_1,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Handbook Volume 021,34.76,GBP,£34.76,Out of stock,One,https://example.test/products/sample-021,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 022,36.13,GBP,£36.13,In stock,Two,https://example.test/products/sample-022,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 023,37.5,GBP,£37.50,In stock,Three,https://example.test/products/sample-023,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 024,38.87,GBP,£38.87,In stock,Four,https://example.test/products/sample-024,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 025,40.24,GBP,£40.24,In stock,Five,https://example.test/products/sample-025,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 026,41.61,GBP,£41.61,In stock,One,https://example.test/products/sample-026,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 027,42.98,GBP,£42.98,In stock,Two,https://example.test/products/sample-027,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 028,44.35,GBP,£44.35,Out of stock,Three,https://example.test/products/sample-028,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 029,45.72,GBP,£45.72,In stock,Four,https://example.test/products/sample-029,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 030,47.09,GBP,£47.09,In stock,Five,https://example.test/products/sample-030,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 031,48.46,GBP,£48.46,In stock,One,https://example.test/products/sample-031,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 032,49.83,GBP,£49.83,In stock,Two,https://example.test/products/sample-032,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 033,7.2,GBP,£7.20,In stock,Three,https://example.test/products/sample-033,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 034,8.57,GBP,£8.57,In stock,Four,https://example.test/products/sample-034,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 035,9.94,GBP,£9.94,Out of stock,Five,https://example.test/products/sample-035,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 036,11.31,GBP,£11.31,In stock,One,https://example.test/products/sample-036,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 037,12.68,GBP,£12.68,In stock,Two,https://example.test/products/sample-037,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 038,14.05,GBP,£14.05,In stock,Three,https://example.test/products/sample-038,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 039,15.42,GBP,£15.42,In stock,Four,https://example.test/products/sample-039,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 040,16.79,GBP,£16.79,In stock,Five,https://example.test/products/sample-040,,sample_fixture_page_2,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Handbook Volume 041,18.16,GBP,£18.16,In stock,One,https://example.test/products/sample-041,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 042,19.53,GBP,£19.53,Out of stock,Two,https://example.test/products/sample-042,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 043,20.9,GBP,£20.90,In stock,Three,https://example.test/products/sample-043,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 044,22.27,GBP,£22.27,In stock,Four,https://example.test/products/sample-044,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 045,23.64,GBP,£23.64,In stock,Five,https://example.test/products/sample-045,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 046,25.01,GBP,£25.01,In stock,One,https://example.test/products/sample-046,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 047,26.38,GBP,£26.38,In stock,Two,https://example.test/products/sample-047,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 048,27.75,GBP,£27.75,In stock,Three,https://example.test/products/sample-048,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 049,29.12,GBP,£29.12,Out of stock,Four,https://example.test/products/sample-049,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 050,30.49,GBP,£30.49,In stock,Five,https://example.test/products/sample-050,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 051,31.86,GBP,£31.86,In stock,One,https://example.test/products/sample-051,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 052,33.23,GBP,£33.23,In stock,Two,https://example.test/products/sample-052,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 053,34.6,GBP,£34.60,In stock,Three,https://example.test/products/sample-053,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 054,35.97,GBP,£35.97,In stock,Four,https://example.test/products/sample-054,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 055,37.34,GBP,£37.34,In stock,Five,https://example.test/products/sample-055,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 056,38.71,GBP,£38.71,Out of stock,One,https://example.test/products/sample-056,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 057,40.08,GBP,£40.08,In stock,Two,https://example.test/products/sample-057,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 058,41.45,GBP,£41.45,In stock,Three,https://example.test/products/sample-058,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 059,42.82,GBP,£42.82,In stock,Four,https://example.test/products/sample-059,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 060,44.19,GBP,£44.19,In stock,Five,https://example.test/products/sample-060,,sample_fixture_page_3,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Handbook Volume 061,45.56,GBP,£45.56,In stock,One,https://example.test/products/sample-061,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 062,46.93,GBP,£46.93,In stock,Two,https://example.test/products/sample-062,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 063,48.3,GBP,£48.30,Out of stock,Three,https://example.test/products/sample-063,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 064,49.67,GBP,£49.67,In stock,Four,https://example.test/products/sample-064,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 065,7.04,GBP,£7.04,In stock,Five,https://example.test/products/sample-065,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 066,8.41,GBP,£8.41,In stock,One,https://example.test/products/sample-066,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 067,9.78,GBP,£9.78,In stock,Two,https://example.test/products/sample-067,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 068,11.15,GBP,£11.15,In stock,Three,https://example.test/products/sample-068,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 069,12.52,GBP,£12.52,In stock,Four,https://example.test/products/sample-069,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 070,13.89,GBP,£13.89,Out of stock,Five,https://example.test/products/sample-070,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 071,15.26,GBP,£15.26,In stock,One,https://example.test/products/sample-071,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 072,16.63,GBP,£16.63,In stock,Two,https://example.test/products/sample-072,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 073,18.0,GBP,£18.00,In stock,Three,https://example.test/products/sample-073,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 074,19.37,GBP,£19.37,In stock,Four,https://example.test/products/sample-074,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 075,20.74,GBP,£20.74,In stock,Five,https://example.test/products/sample-075,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 076,22.11,GBP,£22.11,In stock,One,https://example.test/products/sample-076,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 077,23.48,GBP,£23.48,Out of stock,Two,https://example.test/products/sample-077,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 078,24.85,GBP,£24.85,In stock,Three,https://example.test/products/sample-078,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 079,26.22,GBP,£26.22,In stock,Four,https://example.test/products/sample-079,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 080,27.59,GBP,£27.59,In stock,Five,https://example.test/products/sample-080,,sample_fixture_page_4,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Handbook Volume 081,28.96,GBP,£28.96,In stock,One,https://example.test/products/sample-081,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 082,30.33,GBP,£30.33,In stock,Two,https://example.test/products/sample-082,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 083,31.7,GBP,£31.70,In stock,Three,https://example.test/products/sample-083,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 084,33.07,GBP,£33.07,Out of stock,Four,https://example.test/products/sample-084,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 085,34.44,GBP,£34.44,In stock,Five,https://example.test/products/sample-085,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 086,35.81,GBP,£35.81,In stock,One,https://example.test/products/sample-086,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 087,37.18,GBP,£37.18,In stock,Two,https://example.test/products/sample-087,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 088,38.55,GBP,£38.55,In stock,Three,https://example.test/products/sample-088,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 089,39.92,GBP,£39.92,In stock,Four,https://example.test/products/sample-089,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 090,41.29,GBP,£41.29,In stock,Five,https://example.test/products/sample-090,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 091,42.66,GBP,£42.66,Out of stock,One,https://example.test/products/sample-091,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 092,44.03,GBP,£44.03,In stock,Two,https://example.test/products/sample-092,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 093,45.4,GBP,£45.40,In stock,Three,https://example.test/products/sample-093,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 094,46.77,GBP,£46.77,In stock,Four,https://example.test/products/sample-094,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 095,48.14,GBP,£48.14,In stock,Five,https://example.test/products/sample-095,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 096,49.51,GBP,£49.51,In stock,One,https://example.test/products/sample-096,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 097,6.88,GBP,£6.88,In stock,Two,https://example.test/products/sample-097,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 098,8.25,GBP,£8.25,Out of stock,Three,https://example.test/products/sample-098,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 099,9.62,GBP,£9.62,In stock,Four,https://example.test/products/sample-099,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 100,10.99,GBP,£10.99,In stock,Five,https://example.test/products/sample-100,,sample_fixture_page_5,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Handbook Volume 101,12.36,GBP,£12.36,In stock,One,https://example.test/products/sample-101,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Essays Volume 102,13.73,GBP,£13.73,In stock,Two,https://example.test/products/sample-102,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Manual Volume 103,15.1,GBP,£15.10,In stock,Three,https://example.test/products/sample-103,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Illustrated Edition Volume 104,16.47,GBP,£16.47,In stock,Four,https://example.test/products/sample-104,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Handbook Volume 105,17.84,GBP,£17.84,Out of stock,Five,https://example.test/products/sample-105,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Essays Volume 106,19.21,GBP,£19.21,In stock,One,https://example.test/products/sample-106,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Manual Volume 107,20.58,GBP,£20.58,In stock,Two,https://example.test/products/sample-107,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Illustrated Edition Volume 108,21.95,GBP,£21.95,In stock,Three,https://example.test/products/sample-108,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Handbook Volume 109,23.32,GBP,£23.32,In stock,Four,https://example.test/products/sample-109,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Essays Volume 110,24.69,GBP,£24.69,In stock,Five,https://example.test/products/sample-110,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Mystery Manual Volume 111,26.06,GBP,£26.06,In stock,One,https://example.test/products/sample-111,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+History Illustrated Edition Volume 112,27.43,GBP,£27.43,Out of stock,Two,https://example.test/products/sample-112,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Science Handbook Volume 113,28.8,GBP,£28.80,In stock,Three,https://example.test/products/sample-113,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Travel Essays Volume 114,30.17,GBP,£30.17,In stock,Four,https://example.test/products/sample-114,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Poetry Manual Volume 115,31.54,GBP,£31.54,In stock,Five,https://example.test/products/sample-115,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Cooking Illustrated Edition Volume 116,32.91,GBP,£32.91,In stock,One,https://example.test/products/sample-116,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Art Handbook Volume 117,34.28,GBP,£34.28,In stock,Two,https://example.test/products/sample-117,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Classic Essays Volume 118,35.65,GBP,£35.65,In stock,Three,https://example.test/products/sample-118,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Modern Manual Volume 119,37.02,GBP,£37.02,Out of stock,Four,https://example.test/products/sample-119,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA
+Garden Illustrated Edition Volume 120,38.39,GBP,£38.39,In stock,Five,https://example.test/products/sample-120,,sample_fixture_page_6,SAMPLE FIXTURE - NOT LIVE SCRAPED DATA

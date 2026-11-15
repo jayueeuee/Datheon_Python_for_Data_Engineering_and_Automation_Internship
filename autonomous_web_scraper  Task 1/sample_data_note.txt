@@ -1,0 +1,1 @@
+These 120 rows are sample fixture data for testing only, not extracted from a live website. Run scraper.py on a computer with internet access to generate actual scraped_books.csv, scraped_books.json, and scrape_report.txt from Books to Scrape.\n

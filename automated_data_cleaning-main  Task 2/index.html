@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Automated Data Cleaner</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #101827;
+      color: #e5eaf2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at top, #1d3350 0, #101827 54%);
+    }
+    main { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0; }
+    .hero, .panel {
+      border: 1px solid #334155;
+      border-radius: 16px;
+      background: rgba(22, 34, 51, .92);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, .18);
+    }
+    .hero { padding: 32px; }
+    .eyebrow { color: #7dd3fc; font-size: .82rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 10px 0; font-size: clamp(1.8rem, 5vw, 2.8rem); }
+    h2 { margin: 0 0 16px; font-size: 1.15rem; }
+    p { color: #b6c3d3; line-height: 1.6; }
+    form { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 24px; }
+    input[type="file"] { flex: 1 1 260px; color: #cbd5e1; }
+    button {
+      border: 0;
+      border-radius: 9px;
+      padding: 12px 18px;
+      background: #38bdf8;
+      color: #082f49;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+    }
+    button:disabled { cursor: wait; opacity: .6; }
+    .status { min-height: 24px; margin-bottom: 0; }
+    .error { color: #fca5a5; }
+    #results { display: grid; gap: 18px; margin-top: 24px; }
+    .panel { min-width: 0; padding: 24px; }
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .metric { padding: 16px; border-radius: 10px; background: #0f172a; }
+    .metric span { display: block; color: #94a3b8; font-size: .85rem; }
+    .metric strong { display: block; margin-top: 6px; font-size: 1.5rem; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    th, td { padding: 9px 12px; border-bottom: 1px solid #334155; text-align: left; white-space: nowrap; }
+    th { color: #7dd3fc; }
+    pre { overflow-x: auto; white-space: pre-wrap; color: #cbd5e1; }
+    .downloads { display: flex; flex-wrap: wrap; gap: 12px; }
+    footer { padding: 24px 8px 0; color: #94a3b8; text-align: center; font-size: .85rem; }
+    footer a { color: #38bdf8; }
+    @media (max-width: 600px) {
+      main { padding: 24px 0; }
+      .hero, .panel { padding: 20px; }
+      .metrics { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Automated data cleaning</div>
+      <h1>Clean and validate your CSV</h1>
+      <p>Normalize values, fill optional nulls, remove duplicate records, and validate the output schema.</p>
+      <form id="upload-form">
+        <input id="csv-file" name="file" type="file" accept=".csv,text/csv" required>
+        <button id="submit-button" type="submit">Clean CSV</button>
+      </form>
+      <p id="status" class="status" role="status" aria-live="polite">Upload a CSV file to begin.</p>
+    </section>
+
+    <section id="results" hidden>
+      <section class="panel">
+        <h2>Cleaning summary</h2>
+        <div class="metrics">
+          <div class="metric"><span>Input rows</span><strong id="input-rows">0</strong></div>
+          <div class="metric"><span>Clean rows</span><strong id="clean-rows">0</strong></div>
+          <div class="metric"><span>Rows removed</span><strong id="rows-removed">0</strong></div>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>Input preview</h2>
+        <div id="input-preview" class="table-wrap"></div>
+      </section>
+      <section class="panel">
+        <h2>Cleaned dataset</h2>
+        <div id="clean-preview" class="table-wrap"></div>
+      </section>
+      <section class="panel">
+        <h2>Validation log</h2>
+        <pre id="report"></pre>
+        <div class="downloads">
+          <button id="download-csv" type="button">Download cleaned CSV</button>
+          <button id="download-report" type="button">Download validation report</button>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <div>Developed by Jay Rahane</div>
+      <div><a href="mailto:jayrahane3115@gmail.com">jayrahane3115@gmail.com</a></div>
+      <div>Automated Data Cleaning &amp; Schema Transformation</div>
+    </footer>
+  </main>
+  <script>
+    const form = document.getElementById("upload-form");
+    const button = document.getElementById("submit-button");
+    const status = document.getElementById("status");
+    const results = document.getElementById("results");
+    let cleanedCsv = "";
+    let validationReport = "";
+
+    function renderTable(container, columns, rows) {
+      container.replaceChildren();
+      const table = document.createElement("table");
+      const head = table.createTHead().insertRow();
+      columns.forEach((column) => {
+        const cell = document.createElement("th");
+        cell.textContent = column;
+        head.appendChild(cell);
+      });
+
+      const body = table.createTBody();
+      rows.forEach((row) => {
+        const tableRow = body.insertRow();
+        columns.forEach((column) => {
+          const cell = tableRow.insertCell();
+          const value = row[column];
+          cell.textContent = value == null ? "" : String(value);
+        });
+      });
+      if (columns.length === 0) {
+        container.textContent = "No columns to preview.";
+        return;
+      }
+      container.appendChild(table);
+      if (rows.length === 0) {
+        container.append("No rows to preview.");
+      }
+    }
+
+    function downloadFile(content, filename, contentType) {
+      const url = URL.createObjectURL(new Blob([content], { type: contentType }));
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      link.click();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const file = document.getElementById("csv-file").files[0];
+      if (!file) return;
+
+      button.disabled = true;
+      results.hidden = true;
+      status.classList.remove("error");
+      status.textContent = "Cleaning your file...";
+
+      const formData = new FormData();
+      formData.append("file", file);
+      try {
+        const response = await fetch("/clean", { method: "POST", body: formData });
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.detail || "The CSV could not be processed.");
+        }
+
+        document.getElementById("input-rows").textContent = data.input_rows;
+        document.getElementById("clean-rows").textContent = data.clean_rows;
+        document.getElementById("rows-removed").textContent = data.rows_removed;
+        renderTable(document.getElementById("input-preview"), data.input_columns, data.input_preview);
+        renderTable(document.getElementById("clean-preview"), data.clean_columns, data.clean_preview);
+        document.getElementById("report").textContent = data.report;
+        cleanedCsv = data.cleaned_csv;
+        validationReport = data.report;
+        results.hidden = false;
+        status.textContent = "Your CSV is cleaned and ready to download.";
+      } catch (error) {
+        status.classList.add("error");
+        status.textContent = error instanceof Error ? error.message : "The CSV could not be processed.";
+      } finally {
+        button.disabled = false;
+      }
+    });
+
+    document.getElementById("download-csv").addEventListener("click", () => {
+      downloadFile(cleanedCsv, "cleaned_output.csv", "text/csv;charset=utf-8");
+    });
+    document.getElementById("download-report").addEventListener("click", () => {
+      downloadFile(validationReport, "validation_report.txt", "text/plain;charset=utf-8");
+    });
+  </script>
+</body>
+</html>
